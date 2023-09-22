@@ -9,6 +9,7 @@ import {
   FacebookOutlined,
   LinkedinOutlined,
   TwitterOutlined,
+  CheckCircleOutlined,
 } from "@ant-design/icons";
 function App() {
   const stringSplitter = (string) => {
@@ -82,12 +83,126 @@ function App() {
         >
           <TwitterOutlined />
         </a>
-        <a href="tel:+998932931155"  className="   hover:text-[#6d6bec]">
+        <a href="tel:+998932931155" className="   hover:text-[#6d6bec]">
           <PhoneOutlined />
         </a>
         {/* <span><GithubOutlined/></span>
         <span><GithubOutlined/></span> */}
       </div>
+
+      <div class="grid grid-cols-4 gap-4 text-white mt-8 ml-[10%]">
+        <div class="col-span-2 ...  pl-28 text-[20px]">
+          <h2 className="items-center">Frontend</h2>
+        </div>
+        <div class="col-span-2 ... pl-28 text-[20px] ">
+          <h2>Additional</h2>
+        </div>
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Html , Css</p>
+            <span className="text-[#706b6b]">Advance</span>
+          </div>
+        </div>
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>React</p>
+            <span className="text-[#706b6b]">Advance</span>
+          </div>
+        </div>
+
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Optimisation</p>
+            <span className="text-[#706b6b]">Intermediate</span>
+          </div>
+        </div>
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Tailwindcss</p>
+            <span className="text-[#706b6b]">Advance</span>
+          </div>
+        </div>
+
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Nextjs </p>
+            <span className="text-[#706b6b]">Intermediate</span>
+          </div>
+        </div>
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Vuejs</p>
+            <span className="text-[#706b6b]">Intermediate</span>
+          </div>
+        </div>
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Git</p>
+            <span className="text-[#706b6b]">Advance</span>
+          </div>
+        </div>
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>MaterialUI</p>
+            <span className="text-[#706b6b]">Advance</span>
+          </div>
+        </div>
+
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Javascript</p>
+            <span className="text-[#706b6b]">Advance</span>
+          </div>
+        </div>
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Scss</p>
+            <span className="text-[#706b6b]">Advance</span>
+          </div>
+        </div>
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>AntDesign</p>
+            <span className="text-[#706b6b]">Advance</span>
+          </div>
+        </div>
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Bootstrap</p>
+            <span className="text-[#706b6b]">Advance</span>
+          </div>
+        </div>
+
+
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Typescript</p>
+            <span className="text-[#706b6b]">Intermediate</span>
+          </div>
+        </div>
+        <div class="... flex text-white gap-4 items-center">
+          <CheckCircleOutlined className="text-[#4f8ec2] text-[22px]" />
+          <div className="text-[14px]">
+            <p>Rest Api</p>
+            <span className="text-[#706b6b]">Advance</span>
+          </div>
+        </div>
+      </div>
+
+      <span className="flex justify-center text-white mt-16">Akbar Israilov 2023</span>
     </div>
   );
 }

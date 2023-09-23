@@ -1,0 +1,47 @@
+body {
+  background-color: #0f172a;
+}
+
+.header {
+  width: 100vh;
+  margin: 0 auto;
+  padding-top: 50px;
+
+  /* text-align: center; */
+  /* align-items: center; */
+}
+
+.url-img1,
+.url-img2,
+.url-img3,
+.url-img4{
+&:hover {
+
+  opacity: 0.8;
+
+  &:hover {
+
+    .url-img1__list,
+    .url-img2__list,
+    .url-img3__list,
+    .url-img4__list {
+      display: block;
+      position: absolute;
+      opacity: 1;
+      transition: display 20s;
+    }
+  }
+}
+}
+
+
+
+.url-img1,
+.url-img2,
+.url-img3,
+.url-img4 {
+  &__list {
+    display: none;
+    transition: opacity 2s, display 4s;
+  }
+}

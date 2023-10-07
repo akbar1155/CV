@@ -17,6 +17,7 @@ import {
 } from "@ant-design/icons";
 import { BsTelegram } from "react-icons/bs";
 import { ImArrowRight2 } from "react-icons/im";
+// import Carouselimg from "./Components/Carousel/carousel";
 function App() {
   const stringSplitter = (string) => {
     const splitter = new GraphemeSplitter();
@@ -283,6 +284,7 @@ function App() {
           <img src={avtoelon} alt="" />
         </div>
       </div>
+      {/* <Carouselimg/> */}
       <span className="flex justify-center text-white mt-16">
         Akbar Israilov 2023
       </span>

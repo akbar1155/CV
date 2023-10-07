@@ -7,41 +7,75 @@ body {
   margin: 0 auto;
   padding-top: 50px;
 
-  /* text-align: center; */
-  /* align-items: center; */
-}
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    /* text-align: center; */
+    /* align-items: center; */
+  }
 
-.url-img1,
-.url-img2,
-.url-img3,
-.url-img4{
-&:hover {
+  .url-img1,
+  .url-img2,
+  .url-img3,
+  .url-img4 {
+    &:hover {
 
-  opacity: 0.8;
+      opacity: 0.8;
 
-  &:hover {
+      &:hover {
 
-    .url-img1__list,
-    .url-img2__list,
-    .url-img3__list,
-    .url-img4__list {
-      display: block;
-      position: absolute;
-      opacity: 1;
-      transition: display 20s;
+        .url-img1__list,
+        .url-img2__list,
+        .url-img3__list,
+        .url-img4__list {
+          display: block;
+          position: absolute;
+          opacity: 1;
+          transition: display 20s;
+        }
+      }
+    }
+  }
+
+
+
+  .url-img1,
+  .url-img2,
+  .url-img3,
+  .url-img4 {
+    &__list {
+      display: none;
+      transition: opacity 2s, display 4s;
     }
   }
 }
-}
 
+/* General styles that apply to all screen sizes */
+/* General styles that apply to all screen sizes */
+.header {
+  /* Your existing styles for the header */
 
-
-.url-img1,
-.url-img2,
-.url-img3,
-.url-img4 {
-  &__list {
-    display: none;
-    transition: opacity 2s, display 4s;
+  /* Example: Increase font size for larger screens */
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 36px;
+    }
   }
+
+  /* Example: Adjust grid layout for smaller screens */
+  @media screen and (max-width: 800px) {
+    .grid {
+      grid-template-columns: 1fr; /* Change to a single column layout */
+    }
+  }
+
+  /* Additional responsive styles can be added here */
 }
+
+/* Responsive styles for specific elements or sections */
+
+/* Example: Apply different styles to the "My projects" text for smaller screens */
+// @media screen and (max-width: 800px) {
+//   .header .text-white.text-[18px] {
+//     font-size: 24px;
+//   }
+// }

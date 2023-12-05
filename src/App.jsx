@@ -215,7 +215,7 @@ function App() {
         </div>
       </div>
 
-      <span className="flex justify-center text-white text-[18px] p-8">
+      {/* <span className="flex justify-center text-white text-[18px] p-8">
         My projects
       </span>
       <div className="grid grid-cols-2 gap-4 ml-[2%] text-white">
@@ -283,7 +283,7 @@ function App() {
           </div>
           <img src={avtoelon} alt="" />
         </div>
-      </div>
+      </div> */}
       {/* <Carouselimg/> */}
       <span className="flex justify-center text-white mt-16">
         Akbar Israilov 2023
